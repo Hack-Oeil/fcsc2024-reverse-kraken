@@ -6,17 +6,11 @@ Un ami à vous se méfie des mots de passe classiques et des primitives cryptogr
 ![release_the_kraken.png](release_the_kraken.png)
 
 
-```
-Pour utiliser Kraken Docker, vous pouvez d'abord le compiler avec « make build » (qui utilise le plugin « docker compose »), puis exécuter « make exec » pour y installer un shell.
-
-Le dossier hôte actuel sera monté dans le dossier « /app » du conteneur, ce qui vous permettra d'ajouter vos propres fichiers et d'interagir avec eux.
-```
-
-
 Fichiers :
 - [Dockerfile.kraken](Dockerfile.kraken)
+- [kraken](kraken)
 - [Makefile](Makefile)
-- [snapshot_blob.bin](snapshot_blob.bin)
+- [README_FCSC.md](README_FCSC.md)
 
 
 
@@ -24,6 +18,11 @@ Auteur : rbe
 
 Origine : [Kraken](https://hackropole.fr/fr/challenges/reverse/fcsc2024-reverse-kraken/)
 
+
+-----------
+
+## Connectez vous 
+> http://localhost
 
 -----------
 
